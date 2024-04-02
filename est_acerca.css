@@ -1,0 +1,8 @@
+#prologo {
+    text-align: center;
+    margin: 60px auto;
+    font-size: 21px;
+}
+#imagen img {
+    box-shadow: 0 0 10px rgb(108, 51, 242);
+}

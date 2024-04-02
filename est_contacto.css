@@ -1,0 +1,17 @@
+
+body {
+    overflow-y: hidden;
+}
+#cuerpo {
+    margin: 20px;
+}
+
+#cuerpo p {
+    font-size: 20px;
+}
+footer {
+    background-color: rgb(201, 224, 242);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
