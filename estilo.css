@@ -10,6 +10,7 @@ body {
     overflow-x: hidden;
     margin: 0;
     height: 100vh;
+    width: 95vw;
 }
 
 header {
@@ -27,6 +28,58 @@ header a {
     line-height: 2;
 }
 
+@media only screen and (max-width: 414px){
+    nav {
+         display: none; 
+    }
+}
+
+
+.menu-hamburguesa {
+    display: flex;
+}
+
+@media only screen and (min-width: 414px) {
+    .menu-hamburguesa {
+        display: none;
+    }
+}
+  .menu-hamburguesa button {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+  }
+  
+  .menu-hamburguesa .icono-menu {
+    font-size: 40px;
+    color: rgb(123, 69, 248);
+  }
+  
+  .menu-hamburguesa .opciones-menu {
+    top: 100%;
+    left: 0;
+    background-color: transparent;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+  }
+  
+  .menu-hamburguesa .opciones-menu li {
+    padding: 1px;
+  }
+  
+  .menu-hamburguesa .opciones-menu li a {
+    text-decoration: none;
+    color: rgb(123, 69, 248);
+    background-color: transparent;
+    font-size: 20px;
+  }
+  
+  .menu-hamburguesa .opciones-menu li:hover {
+    background-color: #dddddd;
+  }
+  
 #menu {
     display: flex;
     margin: 0 auto;
