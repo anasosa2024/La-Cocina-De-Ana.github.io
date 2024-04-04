@@ -41,7 +41,7 @@ header a {
 
 @media only screen and (min-width: 414px) {
     .menu-hamburguesa {
-        display: none;
+        display: flex;
     }
 }
   .menu-hamburguesa button {
