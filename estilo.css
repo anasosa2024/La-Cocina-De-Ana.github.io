@@ -28,34 +28,34 @@ header a {
     line-height: 2;
 }
 
-@media only screen and (max-width: 414px){
+@media only screen and (max-width: 414px) {
     nav {
-         display: none; 
+        display: none;
     }
 }
 
+@media only screen and (min-width: 414px) {
+    .icono-menu {
+        display: none;
+    }
+}
 
 .menu-hamburguesa {
     display: flex;
 }
 
-@media only screen and (min-width: 414px) {
-    .menu-hamburguesa {
-        display: flex;
-    }
-}
-  .menu-hamburguesa button {
+.menu-hamburguesa button {
     cursor: pointer;
     border: none;
     background-color: transparent;
-  }
-  
-  .menu-hamburguesa .icono-menu {
+}
+
+.menu-hamburguesa .icono-menu {
     font-size: 40px;
     color: rgb(123, 69, 248);
-  }
-  
-  .menu-hamburguesa .opciones-menu {
+}
+
+.menu-hamburguesa .opciones-menu {
     top: 100%;
     left: 0;
     background-color: transparent;
@@ -63,23 +63,23 @@ header a {
     padding: 0;
     margin: 0;
     display: none;
-  }
-  
-  .menu-hamburguesa .opciones-menu li {
+}
+
+.menu-hamburguesa .opciones-menu li {
     padding: 1px;
-  }
-  
-  .menu-hamburguesa .opciones-menu li a {
+}
+
+.menu-hamburguesa .opciones-menu li a {
     text-decoration: none;
     color: rgb(123, 69, 248);
     background-color: transparent;
     font-size: 20px;
-  }
-  
-  .menu-hamburguesa .opciones-menu li:hover {
+}
+
+.menu-hamburguesa .opciones-menu li:hover {
     background-color: #dddddd;
-  }
-  
+}
+
 #menu {
     display: flex;
     margin: 0 auto;
@@ -233,6 +233,7 @@ iframe {
     margin: 0 auto;
     text-align: center;
 }
+
 #cuerpo {
     margin: 20px;
 }
