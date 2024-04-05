@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <header>
+    <header id="arriba">
         <nav>
             <div id="menu">
                 <a href="index.html">Home</a>
@@ -21,6 +21,18 @@
                 <a href="sucursales.html">Sucursales</a>
             </div>
         </nav>
+        <div class="menu-hamburguesa">
+            <button onclick="mostrarMenu()">
+              <span class="icono-menu">≡</span>
+            </button>
+            <ul class="opciones-menu" style="display: none;">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="acerca_de.html">Acerca de </a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+              <li><a href="registro.html">Regístrese</a></li>
+              <li><a href="sucursales.html">Sucursales</a></li>
+            </ul>
+          </div>
         <h1 id="titulo">La Cocina de Ana</h1>
     </header>
     <h2>Formulario de registro</h2>
@@ -74,7 +86,7 @@
     </form>
     <!--  Si usted hace click en el boton "Enviar", la informacion sera enviada a la pagina "show_data.html"  -->
     <div id="rc">
-        <a href="#menu">Subir</a>
+        <a href="#arriba">Subir</a>
     </div>
 
     <footer>
@@ -93,6 +105,7 @@
         </div>
         <p>Derechos Reservados @2024</p>
     </footer>
+    <script src="style.js"></script>
 </body>
 
 </html>

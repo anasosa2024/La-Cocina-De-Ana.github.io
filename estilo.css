@@ -14,7 +14,6 @@ body {
 }
 
 header {
-    text-align: center;
     background-color: rgb(201, 224, 242);
 }
 
@@ -34,14 +33,14 @@ header a {
     }
 }
 
+.menu-hamburguesa {
+    display: flex;
+    justify-content: left;
+}
 @media only screen and (min-width: 414px) {
     .icono-menu {
         display: none;
     }
-}
-
-.menu-hamburguesa {
-    display: flex;
 }
 
 .menu-hamburguesa button {

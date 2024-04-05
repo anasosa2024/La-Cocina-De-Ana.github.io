@@ -1,3 +1,7 @@
+#container {
+    height: 100vh;
+}
+
 table {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 21px;

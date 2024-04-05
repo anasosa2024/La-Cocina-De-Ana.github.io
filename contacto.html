@@ -12,16 +12,29 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <div id="menu">
-                <a href="index.html">Home</a>
-                <a href="acerca_de.html">Acerca de </a>
-                <a href="contacto.html">Contacto</a>
-                <a href="registro.html">Regístrese</a>
-                <a href="sucursales.html">Sucursales</a>
-            </div>
-        </nav>
+    <div id="container">
+        <header id="arriba">
+            <nav>
+                <div id="menu">
+                    <a href="index.html">Home</a>
+                    <a href="acerca_de.html">Acerca de </a>
+                    <a href="contacto.html">Contacto</a>
+                    <a href="registro.html">Regístrese</a>
+                    <a href="sucursales.html">Sucursales</a>
+                </div>
+            </nav>
+            <div class="menu-hamburguesa">
+                <button onclick="mostrarMenu()">
+                  <span class="icono-menu">≡</span>
+                </button>
+                <ul class="opciones-menu" style="display: none;">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="acerca_de.html">Acerca de </a></li>
+                  <li><a href="contacto.html">Contacto</a></li>
+                  <li><a href="registro.html">Regístrese</a></li>
+                  <li><a href="sucursales.html">Sucursales</a></li>
+                </ul>
+              </div>
         <h1 id="titulo">Contacto</h1>
     </header>
     <div id="cuerpo">
@@ -43,6 +56,7 @@
         </div>
         <p>Derechos Reservados @2024</p>
     </footer>
+    <script src="style.js"></script>
 </body>
 
 </html>
